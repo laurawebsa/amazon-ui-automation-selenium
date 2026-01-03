@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/lauris/Documents/Java Course/amazon-ui-automation-selenium/src/test/java/Tests/SearchTest.java">
+        <classes>
+            <class name="Tests.SearchTest">
+                <methods>
+                    <include name="searchProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
